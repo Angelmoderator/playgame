@@ -1,0 +1,36 @@
+.search-settings{
+    padding: 0;
+}
+
+.accordion .accordion-item , .accordion-item .accordion-header button{
+    background-color: #20232a;
+    color:#61dafb;
+    font-size: 1.4rem;
+    border: none;
+    border-top: 1px solid #20232a;
+}
+
+.accordion-main{
+    padding: 14px;
+}
+
+.accordion-button.collapsed::after{
+    color: #61dafb;
+    background-color: #61dafb;
+    
+}
+
+.btn-outline-primary{
+    color: #61dafb;
+    border: 1px solid #61dafb;
+    border-radius: 0;
+    padding: 4px 20px;
+    margin-right: 10px;
+}
+
+.btn-outline-primary:hover{
+    color: black;
+    background-color: #61dafb;
+    outline: none;
+
+}

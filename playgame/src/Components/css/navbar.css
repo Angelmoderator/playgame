@@ -1,0 +1,111 @@
+
+
+.navbar{
+    background-color: #20232a;
+    box-shadow:0 5px 20px -10px #000;
+}
+
+
+
+/* Расположение */
+
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+
+
+
+.navbar-nav a{
+    font-family: Dosis;
+    font-weight: 600;
+    letter-spacing: .1em;
+    font-size: 18px;
+    color:white !important;
+    position: relative;
+    text-decoration: none;
+    padding: 0 0 6px;
+    font-size: 18px;
+}
+
+.navbar-nav a.nav-link:hover{
+    color:#61dafb !important;
+}
+
+.navbar-nav a.nav-link::before{
+    content: "";
+    position: absolute;
+    opacity:0;
+    bottom: 2px;
+    left:22%;
+    width: 56%;
+    height: 2px;
+    background: #61dafb;
+    transition: .10s cubic-bezier(.23,1,.32,1);
+}
+
+.navbar-nav a.nav-link:active{
+    color:#61dafb;
+}
+.navbar a.nav-link:hover::before{
+    opacity: 1;
+   
+}
+
+.navbar{
+    background-color: #20232a;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar .navbar-toggler{  color:#61dafb; }
+
+.navbar .navbar-toggler-icon{
+    background-color: #61dafb;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+
+/* Кнопки */
+
+.navbar-nav button{
+    background-color: #61dafb;
+   
+    border: 2px solid #61dafb;
+    margin: 2px;
+    border-radius: 0px;
+    padding: 6px 14px;
+}
+
+.navbar-nav button.secondary{
+    background-color: transparent;
+}
+
+.navbar-nav button.secondary a{
+    color: #61dafb!important;
+}
+.navbar-nav button.secondary:hover{
+    background-color: #61dafb;
+}
+.navbar-nav button.secondary:hover a{
+    color: #20232a!important;
+}
+
+.navbar-nav button a{
+    color: #20232a!important;
+}
+.navbar-nav button:hover a{
+    color: #61dafb!important;
+}
+.navbar-nav button:hover{
+    background-color: #20232a;
+    border: 2px solid #61dafb;
+    color: #61dafb;  
+}
+.navbar-nav button:active:focus {
+    outline: #61dafb;
+}

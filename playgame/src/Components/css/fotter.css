@@ -1,0 +1,18 @@
+footer{
+    background-color: #20232a;
+    
+    color: white;
+    margin-top: 60px;
+    padding: 2px 300px;
+}
+
+footer .navbar{
+    display: flex;
+    justify-content: space-between;
+    box-shadow:  0 0 0 0;
+}
+
+footer .text p{
+    font-size: 12px;
+    margin: 2px 2px 2px 20px;
+}

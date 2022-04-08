@@ -1,0 +1,12 @@
+.breadcrumb{
+    font-size: 18px;
+   
+}
+
+.breadcrumb-item a, .breadcrumb-item.active{
+    color:black;
+    text-decoration: none;
+}
+.breadcrumb-item:hover a{
+    color: #61dafb;
+}

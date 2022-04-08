@@ -1,0 +1,7 @@
+.navbar .nav-link a{
+    color: #61dafb;
+}
+
+.navbar .nav-link a::before{
+    opacity: 1;
+}
